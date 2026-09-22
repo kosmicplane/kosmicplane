@@ -11,30 +11,30 @@
 
 ## About
 
-🚀 **Aeronautical Engineering graduate** focused on autonomous aerospace systems for dynamic, degraded, and uncertain operating environments.
+🚀 **Aeronautical Engineering graduate** working on autonomous aerospace systems for dynamic and degraded operating environments.
 
-My research interests center on **safety-critical control, resilient autonomy, onboard sensing and state estimation, multi-robot systems, and simulation-to-hardware validation**. I am particularly interested in vehicles that can use their sensors, models, and control logic to detect changes in the environment or in their own operating capability, preserve safety, and execute contingency, reconfiguration, or recovery actions while continuing the mission when feasible.
+My work sits at the intersection of **safety-critical control, resilient autonomy, sensing and state estimation, multi-robot systems, and experimental validation**. I am especially interested in vehicles that can recognize changes in the environment or in their own operating capability, preserve safety, and select an appropriate contingency, reconfiguration, or recovery action while continuing the mission when feasible.
 
-My work spans UAV and spacecraft testbeds, communication-aware drone swarms, embedded sensing and navigation, flight-dynamics modeling, and experimental validation with real hardware.
+Across recent projects, I have worked with UAVs, spacecraft testbeds, communication-aware drone swarms, embedded sensing systems, flight-dynamics models, and simulation-to-hardware experiments.
 
 ## Research focus
 
-- 🛡️ **Safety-critical control:** CBF/HOCBF, CLF, MPC, LQR-based funnels, constrained control.
-- 🔁 **Resilient autonomy:** contingency preservation, reconfiguration, fault-aware operation, dynamic environments.
-- 🤖 **Multi-robot systems:** communication-aware coordination, swarm networking, topology adaptation.
-- 📡 **Sensing & state estimation:** IMU/GNSS, visual/depth sensing, embedded telemetry, navigation interfaces.
-- 🔬 **Experimental validation:** ROS 2, PX4, Gazebo, Isaac Sim, OptiTrack, Crazyflie, embedded hardware and field testing.
+- 🛡️ **Safety-critical control** — CBF/HOCBF, CLF, MPC, constrained control, funnel-based planning.
+- 🔁 **Resilient autonomy** — contingency preservation, reconfiguration, fault-aware operation, dynamic environments.
+- 🤖 **Multi-robot systems** — communication-aware coordination, swarm networking, topology adaptation.
+- 📡 **Sensing & state estimation** — IMU/GNSS, visual/depth sensing, embedded telemetry, navigation interfaces.
+- 🔬 **Experimental validation** — ROS 2, PX4, Gazebo, Isaac Sim, OptiTrack, Crazyflie, embedded hardware and field testing.
 
-## Selected research & engineering
+## Selected work
 
 <details open>
 <summary><b>🛡️ Safety & Contingency Certificates — Caltech / AMBER Lab</b></summary>
 
 <br>
 
-[**Repository →**](https://github.com/kosmicplane/Safety-Contingency-Certificates) · [**Portfolio dossier →**](https://kosmicplane.github.io/research.html)
+[**Repository →**](https://github.com/kosmicplane/Safety-Contingency-Certificates) · [**Research portfolio →**](https://kosmicplane.github.io/research.html)
 
-Research framework for contingency-aware autonomous landing in dynamic obstacle environments. The work combines **Poisson/PDE-based environmental certificates, control barrier and Lyapunov methods, MPC, and LQR-based funnels** to preserve safe alternatives while reacting quickly to changes in the environment.
+Contingency-aware autonomous landing in dynamic obstacle environments using **Poisson/PDE safety fields, control barrier and Lyapunov methods, MPC, and ellipsoidal funnels**. The work connects local safety and stabilization certificates with real-time route reconstruction and hardware experiments.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/kosmicplane/kosmicplane.github.io/main/assets/images/research/caltech/funnel-route.webp" width="46%" alt="Funnel route construction">
@@ -47,9 +47,9 @@ Research framework for contingency-aware autonomous landing in dynamic obstacle 
 
 <br>
 
-[**Repository →**](https://github.com/kosmicplane/SNAAS_SYM-SNAAS-Simulator) · [**Portfolio dossier →**](https://kosmicplane.github.io/research.html)
+[**Repository →**](https://github.com/kosmicplane/SNAAS_SYM-SNAAS-Simulator) · [**Research portfolio →**](https://kosmicplane.github.io/research.html)
 
-A reproducible platform for **communication-aware multi-UAV and Swarm Network-as-a-Service (SNaaS)** experiments. It couples ROS 2 coordination, PX4-compatible execution, Isaac Sim, and Sionna-based link evaluation to study topology, SNR/SINR, capacity, routing, failures, standby integration, and recovery.
+A communication-aware multi-UAV simulation framework that couples **ROS 2, PX4-compatible execution, Isaac Sim, and NVIDIA Sionna** to study topology, link quality, routing, failures, standby integration, and recovery in airborne network infrastructure.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/kosmicplane/kosmicplane.github.io/main/assets/images/research/kaust-architecture.webp" width="46%" alt="SWARMSYM architecture">
@@ -58,13 +58,13 @@ A reproducible platform for **communication-aware multi-UAV and Swarm Network-as
 </details>
 
 <details>
-<summary><b>🧭 SenDiMoniProg Navigation & Embedded Sensing — National Central University</b></summary>
+<summary><b>🧭 SenDiMoniProg — National Central University</b></summary>
 
 <br>
 
-[**Repository →**](https://github.com/kosmicplane/SenDiMoniProg-IMU) · [**Portfolio dossier →**](https://kosmicplane.github.io/research.html)
+[**Repository →**](https://github.com/kosmicplane/SenDiMoniProg-IMU) · [**Research portfolio →**](https://kosmicplane.github.io/research.html)
 
-ROS 2 embedded sensing work integrating **IMU, GNSS, Intel RealSense, Jetson-class hardware, ESP32 telemetry, MQTT/WebSocket transport, and RViz-based monitoring** for laboratory and field experiments. The repository documents the sensing and communication layers used to support downstream navigation and state-estimation work.
+Embedded sensing and ROS 2 integration for **IMU, GNSS, Intel RealSense, Jetson-class hardware, ESP32 telemetry, MQTT/WebSocket transport, and navigation interfaces**. The project focuses on reliable sensor delivery, timing, calibration, and reproducible experiment workflows.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/kosmicplane/kosmicplane.github.io/main/assets/images/research/ncu/embedded-installation.png" width="46%" alt="Embedded installation">
@@ -77,9 +77,9 @@ ROS 2 embedded sensing work integrating **IMU, GNSS, Intel RealSense, Jetson-cla
 
 <br>
 
-[**Repository →**](https://github.com/kosmicplane/CUBE-SAT-FLIGHT-DYNAMICS-PITOTS) · [**Portfolio dossier →**](https://kosmicplane.github.io/research.html)
+[**Repository →**](https://github.com/kosmicplane/CUBE-SAT-FLIGHT-DYNAMICS-PITOTS) · [**Research portfolio →**](https://kosmicplane.github.io/research.html)
 
-Flight-dynamics and sensing work for a CubeSat-class atmospheric probe, including **descent modeling, multi-Pitot airspeed-vector reconstruction, reference-frame transformations, atmospheric-property estimation, CFD/wind-tunnel work, and post-flight data processing**.
+Flight-dynamics and sensing work for a CubeSat-class atmospheric probe, combining **descent modeling, multi-Pitot airflow reconstruction, atmospheric-property estimation, frame transformations, CFD/wind-tunnel testing, and post-flight data processing**.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/kosmicplane/kosmicplane.github.io/main/assets/images/research/udea/cad.webp" width="46%" alt="Atmospheric probe CAD">
